@@ -11,9 +11,9 @@ fn main() {
 
 fn square(number: i32) -> i32 {
     println!("processing square({})", number);
-    // expression returnng a value
+    // expression returning a value
     number * number
-    // " return  number * number;" is also vald ayntax
+    // " return  number * number;" is also valid syntax
 }
 
 // multiple returns with tuples

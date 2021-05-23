@@ -1,0 +1,1 @@
+/home/my/workspace/rust-workshop/cheatsheet/target/debug/cheatsheet: /home/my/workspace/rust-workshop/cheatsheet/src/main.rs /home/my/workspace/rust-workshop/cheatsheet/src/print.rs /home/my/workspace/rust-workshop/cheatsheet/src/types.rs /home/my/workspace/rust-workshop/cheatsheet/src/vars.rs

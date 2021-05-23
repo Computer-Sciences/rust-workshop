@@ -12,9 +12,10 @@ fn main() {
     println!("");
 
     // to also get the indexes when iterating
-    // enumerate() return a tuple with index/item pairitem in the array not the actual item
+    // enumerate() return a tuple with index/item pair
+    // item in the array not the actual item
     // to get the item use &item
-    // the iterator gives a REFERENCE to an
+    // the iterator gives a pointer to the item
     for (index, &item) in message.iter().enumerate() {
         println!("item {} is {}", index, item);
         if item == 'e' {
