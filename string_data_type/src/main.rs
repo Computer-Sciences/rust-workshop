@@ -58,6 +58,6 @@ fn main() {
     s.push_str("er"); // 2 bytes consumed
 
     // exceeding string capacity (automagically increased)
-    s.push('T'); // 1 byte consumed, s now has 5 bytes size
+    s.push('T'); // 1 byte consumed
     println!("s capacity is  now {} bytes", s.capacity());
 }
