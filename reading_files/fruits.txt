@@ -1,0 +1,9 @@
+apple
+avocado
+banana
+cherry
+orange
+mango
+coconut
+pear
+lemon
