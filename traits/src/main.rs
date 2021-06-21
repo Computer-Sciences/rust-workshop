@@ -1,7 +1,7 @@
 // trait;
 // abstract way to define capabilities for functionality of specific data types
 
-// collection of method signatures
+// collection of methods
 // representing a set of behaviors necessary to accomplish some task
 
 // data types can implement a trait:
