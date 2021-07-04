@@ -36,8 +36,10 @@ fn main() {
 
     let item = countdown.get(20);
 
-    // unwrap_or(): if variant is Some returns the stored data
-    // if the variant is None, the passed argument is used instead
+    // unwrap_or(&default_value):
+    // if variant is Option::Some returns the stored data
+    // if the variant is Option::None, the passed argument is used instead
+    // notice that the argument is a reference
 
     let item = item.unwrap_or(&0) + 1;
     println!("item is {:?}", item);
