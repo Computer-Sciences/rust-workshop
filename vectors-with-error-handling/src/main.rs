@@ -17,6 +17,8 @@ fn main() {
 
     println!("last is {}", last);
 
+    // use get() to handle access errors, returns Option enum
+
     let fourth = match presidents.get(3) {
         Some(president) => president,
         None => "not found",
